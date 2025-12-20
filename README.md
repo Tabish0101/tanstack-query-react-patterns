@@ -1,0 +1,49 @@
+# 🚀 React API Integration Best Practices  
+**TanStack Query + Axios**
+
+A hands-on React project focused on **production-ready API integration patterns** using **TanStack Query** and **Axios**.  
+This repository demonstrates how modern React applications should handle **server state, API abstraction, caching, loading & error states**, and **scalable architecture**.
+
+---
+
+## 👀 Why This Project Exists
+
+Many React projects fetch data incorrectly — mixing concerns, ignoring caching, and handling loading/error states poorly.
+
+This project exists to:
+
+- Learn how APIs are handled in **real-world React applications**
+- Practice **clean and scalable architecture**
+- Demonstrate **industry-standard patterns** to recruiters
+
+---
+
+## 🧠 What You’ll Learn (Key Takeaways)
+
+- Proper separation of **server state vs UI state**
+- Centralized API handling using **Axios**
+- Efficient data fetching with **TanStack Query**
+- Scalable and maintainable **folder structure**
+- Handling real-world API edge cases
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Vite)
+- **TanStack Query** (React Query)
+- **Axios**
+- **Tailwind CSS**
+- **JavaScript / TypeScript** (optional)
+
+---
+
+## ✨ Features Implemented
+
+- ✔ Centralized Axios API instance  
+- ✔ Server-state management using TanStack Query  
+- ✔ Automatic caching & background refetching  
+- ✔ Loading, error & empty states handling  
+- ✔ Pagination & query parameters support  
+- ✔ Clean & scalable folder structure  
+- ✔ Environment-based configuration  
