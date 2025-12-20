@@ -31,10 +31,10 @@ This project exists to:
 ## 🛠️ Tech Stack
 
 - **React** (Vite)
-- **TanStack Query** (React Query)
+- **TypeScript**
 - **Axios**
+- **TanStack Query** (React Query)
 - **Tailwind CSS**
-- **JavaScript / TypeScript** (optional)
 
 ---
 
