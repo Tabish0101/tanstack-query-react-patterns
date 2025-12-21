@@ -10,7 +10,7 @@ type BookCardProps = {
 const BookCard = ({book, onClick}: BookCardProps) => {
   return (
     <div
-      className="cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:border-primary/50 overflow-hidden group bg-slate-700"
+      className="cursor-pointer rounded transition-all duration-300 hover:scale-[101%] hover:shadow-lg hover:border-primary/50 overflow-hidden group bg-slate-700 border-2 border-slate-600"
       onClick={onClick}
     >
       <div className="relative aspect-[2/3] overflow-hidden bg-muted">
