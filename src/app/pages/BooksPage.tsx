@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react"
-import axios from "axios";
-
 import BookCard from "../components/BookCard"
-
 import type { BookType } from "../types/global.types";
+import { fetchBooks } from "../services/api/hattyPotter.api";
 
 
 const BooksPage = () => {
@@ -17,24 +15,18 @@ const BooksPage = () => {
 
   async function populateBooks() {
     setIsLoading(true);
-    const response = await axios.get('https://potterapi-fedeperin.vercel.app/en/books');
-    console.log(response);
-    setBooks(response.data);
+
+    const response = await fetchBooks()
+
+    setBooks(response);
     setIsLoading(false);
   }
-
-  // hydrateBooks
-  // loadInitialBooks
-  // initializeBooks
-  // populateBooks
 
   return (
     <div className="min-h-screen bg-slate-800 p-2">
       <div className="bg-slate-900 h-full text-white flex flex-col gap-8 justify-center items-center rounded">
         <h1 className="font-bold text-5xl">Books</h1>
         <div className=" flex p-10">
-          {/* <BookCard book={}/>
-          <BookCard/> */}
           {isLoading ? (
             <h1>Loading...</h1>
           ) : (
@@ -42,7 +34,7 @@ const BooksPage = () => {
               {
                 books?.map((book) => (
                   <BookCard
-                    key={book.index} // unique key
+                    key={book.index} 
                     book={book}
                     onClick={() => console.log('Book clicked:', book.title)}
                   />
