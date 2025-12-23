@@ -54,7 +54,7 @@ This project exists to:
 
 I wrote a detailed article explaining what I learned while building this project and how it improved my understanding of **data fetching and performance**:
 
-👉 **Medium Article:** _Add link here_
+👉 **Medium Article:** _https://medium.com/@tabishjeelani93/i-was-fetching-data-wrong-what-tanstack-query-taught-me-about-performance-68e7c5a5a67b_
 
 ---
 
