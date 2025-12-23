@@ -1,3 +1,5 @@
+export type Language = "en" | "es" | "fr" | "it" | "pt"
+
 export interface BookType {
   cover: string;
   description: string;
