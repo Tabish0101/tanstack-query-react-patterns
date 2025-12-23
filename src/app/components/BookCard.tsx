@@ -1,5 +1,4 @@
 import type { MouseEventHandler } from 'react';
-
 import type { BookType } from '../types/global.types';
 
 type BookCardProps = {
