@@ -46,4 +46,30 @@ This project exists to:
 - ✔ Loading, error & empty states handling  
 - ✔ Pagination & query parameters support  
 - ✔ Clean & scalable folder structure  
-- ✔ Environment-based configuration  
+- ✔ Environment-based configuration
+
+---
+
+## 📖 Related Article
+
+I wrote a detailed article explaining what I learned while building this project and how it improved my understanding of **data fetching and performance**:
+
+👉 **Medium Article:** _Add link here_
+
+---
+
+## 🎯 Who This Repo Is For
+
+- React developers moving beyond basics  
+- Developers struggling with data-fetching complexity  
+- Anyone interested in performance-aware frontend architecture  
+- Developers preparing for frontend interviews  
+
+---
+
+## 🤝 Contributions & Feedback
+
+This project is meant for learning and sharing knowledge.
+
+Feel free to fork, explore, or suggest improvements.  
+If this helped you, consider giving the repo a ⭐.
